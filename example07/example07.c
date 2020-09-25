@@ -1,4 +1,4 @@
-// Example 5 (20 min) Format Strings (leak GOT, overwrite ret addr)
+// Example 7 (20 min) Format Strings (leak GOT, overwrite ret addr)
 
 #include <stdio.h>
 #include <string.h>

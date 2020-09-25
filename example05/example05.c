@@ -1,4 +1,4 @@
-// Example 7 (20 min) Stack Canary & Pie Leaks (no null termination): tell it how many bytes to read, zeros that many.
+// Example 5 (20 min) Stack Canary & Pie Leaks (no null termination): tell it how many bytes to read, zeros that many.
 // - Leak stack canary, then overwrite ret addr
 // - Note that this technique can also be used to leak PIE
 #include<stdio.h>
